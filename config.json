@@ -1,5 +1,5 @@
 {
-  "name": "Wiki文档",
-  "ver": "V1.0",
-  "github-url": "https://github.com/Layty/wiki"
+  "colour": "default",
+  "github-url": "https://github.com/Layty/wiki",
+  "page-mounts":true
 }
