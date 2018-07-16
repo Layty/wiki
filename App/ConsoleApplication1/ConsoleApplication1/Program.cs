@@ -138,7 +138,7 @@ namespace ConsoleApplication1
             //2.生成library的导航文件,遍历的同时处理md文件
             string sourceFile = @"result.txt";
             fs = new FileStream(sourceFile, FileMode.Create);
-            sw = new StreamWriter(fs);
+            sw = new StreamWriter(fs, Encoding.UTF8);
             //开始写入导航文件
             //固定格式,先空一行
             sw.WriteLine("");
@@ -360,9 +360,9 @@ namespace ConsoleApplication1
             bool isrewrite = true; // true=覆盖已存在的同名文件,false则反之
 
             fsmd = new FileStream("md.txt", FileMode.Create);
-            swmd = new StreamWriter(fsmd);
+            swmd = new StreamWriter(fsmd, Encoding.UTF8);
 
-            StreamReader sr = new StreamReader(mdfullpath);
+            StreamReader sr = new StreamReader(mdfullpath, Encoding.UTF8);
             string line;
             while ((line = sr.ReadLine()) != null)
             {
