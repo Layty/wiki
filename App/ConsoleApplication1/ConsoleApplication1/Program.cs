@@ -221,6 +221,7 @@ namespace ConsoleApplication1
                             sw.Write(Cutpath(NextF.Name));
                             sw.Write("](?file=");
                             string fpath = Cutref(NextF.FullName).Replace(" ","%20");
+                            fpath = fpath.Replace("\\", "/");//github  不认识路径\
                             // MessageBox.Show(NextF.FullName); ,路径是 用\ 表示的win系统
                             sw.Write(fpath + " ");
                             sw.Write("\"" + Cutpath(NextF.Name) + "\"");

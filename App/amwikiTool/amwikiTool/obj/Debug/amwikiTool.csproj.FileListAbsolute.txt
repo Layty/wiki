@@ -6,3 +6,5 @@ E:\amwikiTool\App\amwikiTool\amwikiTool\obj\Debug\amwikiTool.exe
 E:\amwikiTool\App\amwikiTool\amwikiTool\obj\Debug\amwikiTool.pdb
 E:\amwikiTool\amwikiTool.exe
 E:\amwikiTool\amwikiTool.pdb
+C:\Users\Administrator\Desktop\CodingBlog\New\wiki\App\amwikiTool\amwikiTool\obj\Debug\amwikiTool.exe
+C:\Users\Administrator\Desktop\CodingBlog\New\wiki\App\amwikiTool\amwikiTool\obj\Debug\amwikiTool.pdb
