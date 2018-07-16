@@ -6,11 +6,11 @@
         <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="renderer" content="webkit">
-        <title>Wiki文档</title>
+        <title>{{name}}</title>
         <link rel="stylesheet" type="text/css" href="amWiki/css/markdownbody.github.css" />
         <link rel="stylesheet" type="text/css" href="amWiki/css/lhjs.github-gist.css" />
         <link rel="stylesheet" type="text/css" href="amWiki/css/amWiki.css" />
-        
+        {{custom.css}}
     </head>
 
     <body>
@@ -18,9 +18,9 @@
         <header class="header">
             <div class="header-inner">
                 <a class="logo" href="?file=首页">
-                    <img src="amWiki/images/logo.png" /><i></i>
-                    <b>Wiki文档</b>
-                    <span>V1.0</span>
+                    <img src="{{logo}}" /><i></i>
+                    <b>{{name}}</b>
+                    <span>{{version}}</span>
                 </a>
                 <div class="menu-icon" id="menuIcon">
                     <svg>
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                     <!-- 接口测试 -->
-                    
+                    {{amWiki.testing.tpl}}
                 </div>
             </div>
         </div>
@@ -159,7 +159,7 @@
         </footer>
         <!-- mounts -->
         <div class="hidden" aw-include="mountLinks">
-            <script>AWConfig={"name":"Wiki文档","ver":"V1.0","version":"V1.0","logo":"amWiki/images/logo.png","testing":false,"colour":"#4296eb","pageMounts":false,"githubUrl":"https://github.com/Layty/wiki","libraryPrefix":""}</script>
+            <script>{{config}}</script>
         </div>
         <!-- js -->
         <div class="hidden">
@@ -175,11 +175,11 @@
             <script type="text/javascript" src="amWiki/js/amWiki.search.js"></script>
             <script type="text/javascript" src="amWiki/js/amWiki.search.worker.js"></script>
             <script type="text/javascript" src="amWiki/js/amWiki.docs.js"></script>
-            
+            {{amWiki.testing.js}}
             <script type="text/javascript" src="amWiki/js/amWiki.scrollbar.js"></script>
             <script type="text/javascript" src="amWiki/js/amWiki.imgsView.js"></script>
             <script type="text/javascript" src="amWiki/js/amWiki.js"></script>
-            
+            {{custom.js}}
         </div>
         <!-- svg -->
         <div class="hidden" id="svgSymbols"></div>
