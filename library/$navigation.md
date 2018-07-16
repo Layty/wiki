@@ -1,6 +1,5 @@
 
 #### [首页](?file=home-首页)
-- [home-首页](?file=home-首页 "home-首页")
 
 ##### DLMS
   - [DLMS概述](?file=DLMS\01_DLMS概述 "DLMS概述")
