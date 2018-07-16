@@ -1,0 +1,8 @@
+E:\amwikiTool\App\amwikiTool\amwikiTool\obj\Debug\amwikiTool.csprojResolveAssemblyReference.cache
+E:\amwikiTool\App\amwikiTool\amwikiTool\obj\Debug\amwikiTool.Form1.resources
+E:\amwikiTool\App\amwikiTool\amwikiTool\obj\Debug\amwikiTool.Properties.Resources.resources
+E:\amwikiTool\App\amwikiTool\amwikiTool\obj\Debug\amwikiTool.csproj.GenerateResource.Cache
+E:\amwikiTool\App\amwikiTool\amwikiTool\obj\Debug\amwikiTool.exe
+E:\amwikiTool\App\amwikiTool\amwikiTool\obj\Debug\amwikiTool.pdb
+E:\amwikiTool\amwikiTool.exe
+E:\amwikiTool\amwikiTool.pdb
